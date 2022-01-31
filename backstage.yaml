@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: Demo-Authorization2
+  description: The Platform Authorization web API
+  tags:
+    - rest
+    - api
+    - authorization
+    - authorisation
+  annotations:
+    backstage.io/techdocs-ref: dir:./docs
+    # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
+#    backstage.io/definition-at-location: 'url:https://raw.githubusercontent.com/APIs-guru/openapi-directory/master/APIs/spotify.com/v1/swagger.yaml'
