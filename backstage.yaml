@@ -1,14 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
-  name: Demo-Authorization2
-  description: The Platform Authorization web API
-  tags:
-    - rest
-    - api
-    - authorization
-    - authorisation
+  name: demo
+  description: An example deployment of a Backstage application.
   annotations:
-    backstage.io/techdocs-ref: dir:./docs
-    # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
-#    backstage.io/definition-at-location: 'url:https://raw.githubusercontent.com/APIs-guru/openapi-directory/master/APIs/spotify.com/v1/swagger.yaml'
+    github.com/project-slug: backstage/demo
+spec:
+  type: framework
+  owner: backstage/maintainers
+  lifecycle: experimental
