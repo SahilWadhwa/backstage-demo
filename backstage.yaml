@@ -6,6 +6,6 @@ metadata:
   annotations:
     github.com/project-slug: backstage/demo
 spec:
-  type: framework
+  type: Tooling
   owner: backstage/maintainers
   lifecycle: experimental
